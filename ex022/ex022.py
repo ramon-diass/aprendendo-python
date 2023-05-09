@@ -1,0 +1,8 @@
+nome = input('Digite o nome completo: ').strip()
+print(f'O nome digitado foi: {nome.title()}.')
+print(f'Nome com todas as letras maiúsculas: {nome.upper()}.')
+print(f'Nome com todas as letras minúsculas: {nome.lower()}.')
+espaco = nome.count(' ')
+print(f'A quantidade somente de letras é: {len(nome) - espaco}')
+dividido = nome.title().split()
+print(f'O primeiro nome é {dividido[0]} e tem {len(dividido[0])} letras.')
