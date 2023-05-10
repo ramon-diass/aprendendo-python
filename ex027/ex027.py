@@ -1,0 +1,5 @@
+nome = input('Digite o nome completo: ').strip()
+lista = nome.title().split()
+print(f'O nome {nome.title()} tem:')
+print(f'Primeiro nome: {lista[0]}')
+print(f'O último nome: {lista[len(lista) - 1]}')
